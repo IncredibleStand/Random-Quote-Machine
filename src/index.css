@@ -1,0 +1,95 @@
+*, :before, :after,
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+#quote-box
+{
+  background-color: white;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+  margin-top: auto;
+  width: 450px;
+  padding: 20px 50px;
+  border-radius: 7px;
+}
+#sign
+{
+  margin: 0 10px;
+  font-size: 30px;
+  transition: background ease-in-out 1s;
+}
+#quotes
+{
+  font-weight: bolder; 
+  text-align: center;
+  font-size: 1.1em;
+  font-style: oblique;
+  font-family: Arial, sans-serif;
+  height: auto;
+}
+#info
+{
+  text-align: right;
+  margin: 30px;
+  font-weight: bold;
+  font-size: 1.1em;
+  transition: ease-in-out 1s;
+}
+#buttons
+{
+  display: block;
+  margin: auto;
+  width: 100%;
+}
+#buttons a
+{
+  float: left;
+  margin-right: 20px;
+  font-size: 1.9em;
+  background: black;
+  text-align: center;
+  border-radius: 7px;
+  width: 37px;
+  height: 37px;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  color: white;
+  align-items: center;
+  gap: 15px;
+}
+#new-quote
+{
+  font-size: 1.1em;
+  pointer: cursor;
+  color: white;
+  align-items: flex-end;
+  float: right;
+  border: none;
+  border-radius: 7px;
+  padding: 10px;
+}
+footer
+{
+  margin-top: 20px;
+  text-align: center;
+  display: block;
+  color: white;
+}
+footer a
+{
+  text-decoration: none;
+  color: white;
+}
